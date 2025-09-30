@@ -1,10 +1,15 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Frontend Online Store
+
+Aplicação web em React que consome a API pública do MercadoLibre para:
+- buscar produtos por termo e categoria;
+- exibir detalhes do produto;
+- adicionar/remover itens do carrinho (persistido no `localStorage`).
+
+## Tecnologias utilizadas
+- React 18 (Create React App)
+- React Router DOM v5
+- JavaScript (ES6+) e Fetch API
+- CSS
+- ESLint (config Trybe) e Stylelint
+- Jest + Testing Library (setup do CRA)
+
